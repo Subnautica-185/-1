@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E1D5D9;
+
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 7px;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 150px;
+    
+}
+
+.navbar li a:hover {
+    background-color: #575757;
+    
+}
+header {display: flex;
+justify-content:
+ space-around;
+}
+ .mazda {
+    width:50px ;
+    height:50px ;
+    position: absolute;
+    z-index: 1;
+ }
+ .center{
+    text-align: center;
+    font-size: 40px;
+    
+ }
+ .foto {
+    width: 700px;
+    height: 300px;
+    
+ }
+.img1{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 90px;
+
+}
+.link {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+
+    
+}
+
+.carousel-item img {
+    height: 1000px; /* Можно изменить на желаемую высоту */
+    object-fit: cover; /* Обрезка изображения для соответствия высоте */
+    
+  }
+  .credit {
+    text-align: center;
+    position: relative;
+    margin: 100px;
+  }
+  .next {
+    text-decoration: none;
+    float: right;
+    font-size: 40px;
+    color: #58545B;
+    transition: 3s;
+  }
+  .next:hover{
+    color: #58545B;
+    text-decoration: none;
+    font-size: 60px;
+    transition: 3s;
+  }
